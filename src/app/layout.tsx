@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
 import { Lora } from "next/font/google";
-import localFont from "next/font/local";
 import "./globals.css";
-import { Logo } from "@/components/Logo";
+import { SideMenu } from "@/components/SideMenu";
 
 const lora = Lora({
 	display: "swap",
@@ -16,14 +15,19 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
 	children,
+	section1,
+	section2,
 }: Readonly<{
 	children: React.ReactNode;
+	section1: React.ReactNode;
+	section2: React.ReactNode;
 }>) {
 	return (
 		<html lang="en">
-			<body className={`${lora.className} antialiased`}>
-				<Logo size={16} />
-				{children}
+			<body className={`${lora.className} antialiased  bg-background`}>
+				<SideMenu />
+				{section1}
+				{section2}
 			</body>
 		</html>
 	);

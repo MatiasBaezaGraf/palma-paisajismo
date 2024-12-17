@@ -10,6 +10,8 @@ export default {
 		extend: {
 			colors: {
 				background: "#F8F6ED",
+				"accent-primary": "#57245C",
+				"accent-secondary": "#3F4C3E",
 			},
 		},
 	},

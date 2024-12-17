@@ -5,15 +5,16 @@ export const Logo = ({ size = 16 }: { size?: number }) => {
 		<div
 			style={{
 				width: `${size * 4}px`,
-				height: `${size * 4}px`,
+				height: `${size * 2.5}px`,
 			}}
 			className="relative"
 		>
 			<Image
-				src="/logo.svg"
+				src={"/images/logo.svg"}
 				alt="Logo de la tienda"
 				layout="fill"
-				objectFit="contain"
+				fill
+				style={{ objectFit: "contain" }}
 			/>
 		</div>
 	);
