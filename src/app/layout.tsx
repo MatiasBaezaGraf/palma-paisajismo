@@ -17,10 +17,14 @@ export default function RootLayout({
 	children,
 	section1,
 	section2,
+	section3,
+	section4,
 }: Readonly<{
 	children: React.ReactNode;
 	section1: React.ReactNode;
 	section2: React.ReactNode;
+	section3: React.ReactNode;
+	section4: React.ReactNode;
 }>) {
 	return (
 		<html lang="en">
@@ -28,6 +32,8 @@ export default function RootLayout({
 				<SideMenu />
 				{section1}
 				{section2}
+				{section3}
+				{section4}
 			</body>
 		</html>
 	);

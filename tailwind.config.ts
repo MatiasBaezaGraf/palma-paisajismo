@@ -12,6 +12,10 @@ export default {
 				background: "#F8F6ED",
 				"accent-primary": "#57245C",
 				"accent-secondary": "#3F4C3E",
+				"accent-alternative": "#94A985",
+			},
+			backgroundImage: {
+				pool: "url('/images/image_pool_2.jpg')",
 			},
 		},
 	},
