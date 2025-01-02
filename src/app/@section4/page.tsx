@@ -1,4 +1,4 @@
-import { Logo } from "@/components/Logo";
+import { SocialIcon } from "@/components/SocialIcon";
 import Image from "next/image";
 
 export default function Section4() {
@@ -40,6 +40,12 @@ export default function Section4() {
 						<p className="text-base">
 							<span className="font-bold">HEIDI IGNATOV</span>{" "}
 							<span className="italic">Paisajista</span>
+							<SocialIcon
+								className="fill-accent-alternative"
+								social="facebook"
+								link="https://facebook.com"
+							/>
+							<SocialIcon social="linkedin" link="https://linkedin.com" />
 						</p>
 					</div>
 				</div>
