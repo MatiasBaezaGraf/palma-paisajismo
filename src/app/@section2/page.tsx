@@ -1,7 +1,7 @@
 export default function Section2() {
 	return (
 		<div>
-			<div className="min-h-[70vh] flex center bg-black/[0.01]">
+			<div className="min-h-[70vh] flex center bg-black/[0.02]">
 				<div className="flex flex-row items-start justify-center max-w-[1120px] text-accent-secondary">
 					<div className="flex flex-col justify-center items-start gap-12">
 						<h2 className="text-5xl">¿Que es el Paisajismo?</h2>

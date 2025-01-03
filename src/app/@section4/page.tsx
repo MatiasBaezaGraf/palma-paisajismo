@@ -28,6 +28,24 @@ export default function Section4() {
 						</div>
 					</div>
 
+					<div className="flex flex-col items-start justify-center w-min mx-1 gap-1">
+						<SocialIcon
+							className="fill-accent-alternative"
+							social="facebook"
+							link="https://facebook.com"
+						/>
+						<SocialIcon
+							className="fill-accent-alternative"
+							social="linkedin"
+							link="https://linkedin.com"
+						/>
+						<SocialIcon
+							className="fill-accent-alternative"
+							social="x"
+							link="https://linkedin.com"
+						/>
+					</div>
+
 					<div className="flex flex-col items-start justify-center gap-4 w-1/2">
 						<div className="aspect-square relative w-full">
 							<Image
@@ -37,16 +55,6 @@ export default function Section4() {
 								className="object-cover"
 							/>
 						</div>
-						<p className="text-base">
-							<span className="font-bold">HEIDI IGNATOV</span>{" "}
-							<span className="italic">Paisajista</span>
-							<SocialIcon
-								className="fill-accent-alternative"
-								social="facebook"
-								link="https://facebook.com"
-							/>
-							<SocialIcon social="linkedin" link="https://linkedin.com" />
-						</p>
 					</div>
 				</div>
 			</div>

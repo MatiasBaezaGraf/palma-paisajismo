@@ -19,12 +19,18 @@ export default function RootLayout({
 	section2,
 	section3,
 	section4,
+	section5,
+	section6,
+	footer,
 }: Readonly<{
 	children: React.ReactNode;
 	section1: React.ReactNode;
 	section2: React.ReactNode;
 	section3: React.ReactNode;
 	section4: React.ReactNode;
+	section5: React.ReactNode;
+	section6: React.ReactNode;
+	footer: React.ReactNode;
 }>) {
 	return (
 		<html lang="en">
@@ -34,6 +40,9 @@ export default function RootLayout({
 				{section2}
 				{section3}
 				{section4}
+				{section5}
+				{section6}
+				{footer}
 			</body>
 		</html>
 	);
