@@ -16,7 +16,7 @@ export default {
 			},
 			backgroundImage: {
 				pool: "url('/images/image_pool_2.jpg')",
-				workspace: "url('/images/image_workspace.jpg')",
+				workspace: "url('/images/image_workspace_dark.jpg')",
 				planes: "url('/images/image_plane_composed.png')",
 			},
 		},

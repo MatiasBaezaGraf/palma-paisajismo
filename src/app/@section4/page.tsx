@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Section4() {
 	return (
-		<div>
+		<div id="sobremi">
 			<div className="min-h-screen flex center">
 				<div className="flex flex-row items-start justify-center max-w-[1120px] text-accent-secondary">
 					<div className="flex flex-col justify-center items-start gap-12 w-1/2 text-xl">

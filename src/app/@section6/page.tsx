@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Section6() {
 	return (
 		<div>
-			<div className="min-h-screen py-36 flex flex-col center bg-planes bg-center bg-cover gap-40">
+			<div className="min-h-screen py-36 flex flex-col center bg-planes bg-center bg-cover ">
 				<div className="flex flex-row items-start justify-between max-w-[1120px] text-accent-primary">
 					<div className="flex flex-col justify-center items-start gap-4 w-2/5">
 						<div>
@@ -39,9 +39,12 @@ export default function Section6() {
 					</div>
 				</div>
 
-				<div className="flex w-full justify-between max-w-[1120px] ">
+				<div
+					id="contacto"
+					className="flex w-full justify-between max-w-[1120px] gap-10 pt-40"
+				>
 					{/* Contact form */}
-					<div className="flex flex-col justify-center items-start gap-4 basis-3/5">
+					<form className="flex flex-col justify-center items-start gap-4 basis-3/5">
 						<h2 className="text-5xl text-accent-alternative">Hablemos</h2>
 
 						<div className="flex gap-4 w-full">
@@ -62,13 +65,17 @@ export default function Section6() {
 							placeholder="Mensaje"
 							rows={10}
 						></textarea>
-					</div>
-					<div className="flex-1 relative aspect-square basis-2/5">
+
+						<button className="text-accent-white hover:bg-accent-secondary/70 bg-accent-secondary px-8 py-2">
+							Enviar
+						</button>
+					</form>
+					<div className="flex-1 relative aspect-square basis-2/5 ">
 						<Image
 							src={"/images/image_me.jpg"}
 							alt="Planes"
 							fill
-							className="object-cover p-8"
+							className="object-cover "
 						/>
 					</div>
 				</div>

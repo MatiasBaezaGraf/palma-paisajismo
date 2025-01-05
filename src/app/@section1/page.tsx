@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Section1() {
 	return (
-		<div>
+		<div id="inicio">
 			<div className="min-h-screen flex center">
 				<div className="flex flex-row items-start justify-center max-w-[1120px] text-accent-primary">
 					<div className="flex flex-col justify-center items-start gap-4 w-1/2">

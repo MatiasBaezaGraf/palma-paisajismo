@@ -14,7 +14,6 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({
-	children,
 	section1,
 	section2,
 	section3,
@@ -23,7 +22,6 @@ export default function RootLayout({
 	section6,
 	footer,
 }: Readonly<{
-	children: React.ReactNode;
 	section1: React.ReactNode;
 	section2: React.ReactNode;
 	section3: React.ReactNode;
