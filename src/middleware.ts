@@ -7,11 +7,11 @@ export function middleware(req: NextRequest) {
 	// Check if the requested pathname is not found
 	if (
 		!pathname.startsWith("/api") &&
-		pathname !== "/" &&
+		pathname != "/home" &&
 		!pathname.startsWith("/images") &&
 		!pathname.startsWith("/jardines")
 	) {
-		return NextResponse.redirect(new URL("/", req.url));
+		return NextResponse.redirect(new URL("/home", req.url));
 	}
 
 	return NextResponse.next();
