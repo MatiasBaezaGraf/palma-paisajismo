@@ -14,32 +14,32 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({
-	section1,
-	section2,
-	section3,
-	section4,
-	section5,
-	section6,
+	inicio,
+	paisajismo1,
+	paisajismo2,
+	acerca,
+	procesos1,
+	procesos2,
 	footer,
 }: Readonly<{
-	section1: React.ReactNode;
-	section2: React.ReactNode;
-	section3: React.ReactNode;
-	section4: React.ReactNode;
-	section5: React.ReactNode;
-	section6: React.ReactNode;
+	inicio: React.ReactNode;
+	paisajismo1: React.ReactNode;
+	paisajismo2: React.ReactNode;
+	acerca: React.ReactNode;
+	procesos1: React.ReactNode;
+	procesos2: React.ReactNode;
 	footer: React.ReactNode;
 }>) {
 	return (
 		<html lang="en">
 			<body className={`${lora.className} antialiased  bg-background`}>
 				<SideMenu />
-				{section1}
-				{section2}
-				{section3}
-				{section4}
-				{section5}
-				{section6}
+				{inicio}
+				{paisajismo1}
+				{paisajismo2}
+				{acerca}
+				{procesos1}
+				{procesos2}
 				{footer}
 			</body>
 		</html>
