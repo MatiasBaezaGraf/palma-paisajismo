@@ -1,7 +1,7 @@
 import { Logo } from "@/components/Logo";
 import Image from "next/image";
 
-export default function Section1() {
+export default function Inicio() {
 	return (
 		<div id="inicio">
 			<div className="min-h-screen flex center">

@@ -1,7 +1,7 @@
 import { SocialIcon } from "@/components/SocialIcon";
 import Image from "next/image";
 
-export default function Section4() {
+export default function Acerca() {
 	return (
 		<div id="sobremi">
 			<div className="min-h-screen flex center">

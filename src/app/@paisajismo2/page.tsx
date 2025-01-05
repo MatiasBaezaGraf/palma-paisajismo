@@ -1,8 +1,8 @@
 import Image from "next/image";
 
-export default function Section3() {
+export default function Paisajismo2() {
 	return (
-		<div className="bg-pool bg-cover">
+		<div id="paisajismo2" className="bg-pool bg-cover">
 			<div className="min-h-screen flex center bg-black/60">
 				<div className="flex flex-row items-start justify-center max-w-[1120px] text-accent-alternative">
 					<div className="flex flex-col justify-center items-start gap-2">

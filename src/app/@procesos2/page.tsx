@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function Section6() {
+export default function Procesos2() {
 	return (
 		<div>
 			<div className="min-h-screen py-36 flex flex-col center bg-planes bg-center bg-cover ">
@@ -15,7 +15,7 @@ export default function Section6() {
 							/>
 						</div>
 
-						<p className="text-xl  leading-9">
+						<p className="text-xl leading-9">
 							Ut wisi enim ad minim veniam, quis nostrud exerci tation
 							ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
 							consequat.
@@ -31,7 +31,7 @@ export default function Section6() {
 							/>
 						</div>
 
-						<p className="text-xl  leading-9">
+						<p className="text-xl leading-9">
 							Ut wisi enim ad minim veniam, quis nostrud exerci tation
 							ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
 							consequat.

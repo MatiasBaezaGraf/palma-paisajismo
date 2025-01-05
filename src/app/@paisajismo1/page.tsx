@@ -1,4 +1,6 @@
-export default function Section2() {
+import Link from "next/link";
+
+export default function Paisajismo1() {
 	return (
 		<div id="paisajismo">
 			<div className="min-h-[70vh] flex center bg-black/[0.02]">
@@ -11,9 +13,12 @@ export default function Section2() {
 							erat volutpat.
 						</p>
 
-						<button className="border-accent-secondary hover:bg-black/10 text-xl border-2 px-12 py-6">
+						<Link
+							href={"#paisajismo2"}
+							className="border-accent-secondary hover:bg-black/10 text-xl border-2 px-12 py-6"
+						>
 							Aprende más
-						</button>
+						</Link>
 					</div>
 				</div>
 			</div>

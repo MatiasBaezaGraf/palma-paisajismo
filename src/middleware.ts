@@ -8,7 +8,8 @@ export function middleware(req: NextRequest) {
 	if (
 		!pathname.startsWith("/api") &&
 		pathname !== "/" &&
-		!pathname.startsWith("/images")
+		!pathname.startsWith("/images") &&
+		!pathname.startsWith("/jardines")
 	) {
 		return NextResponse.redirect(new URL("/", req.url));
 	}

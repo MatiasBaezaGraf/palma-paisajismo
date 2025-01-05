@@ -1,4 +1,4 @@
-export default function Section5() {
+export default function Procesos1() {
 	return (
 		<div>
 			<div className="min-h-screen flex flex-col center">
