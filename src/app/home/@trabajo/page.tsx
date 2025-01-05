@@ -1,6 +1,4 @@
 import { GardenShow } from "@/components/GardenShow";
-import Image from "next/image";
-import Link from "next/link";
 
 export default function Trabajo() {
 	return (
