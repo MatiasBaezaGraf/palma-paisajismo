@@ -10,12 +10,12 @@ export default function Trabajo() {
 
 						<div className="w-full grid grid-cols-2 gap-3 h-[70%]">
 							<GardenShow
-								id={1}
+								// id={1}
 								title="Jardín 1"
 								imageUrl="/images/jardines/1/image_jardin1_3.jpg"
 							/>
 							<GardenShow
-								id={2}
+								// id={2}
 								title="Jardín 2"
 								imageUrl="/images/jardines/2/image_jardin2_1.jpg"
 							/>
