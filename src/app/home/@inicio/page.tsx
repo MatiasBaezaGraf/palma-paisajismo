@@ -4,24 +4,29 @@ import Image from "next/image";
 export default function Inicio() {
 	return (
 		<div id="inicio">
-			<div className="min-h-screen flex center">
-				<div className="flex flex-row items-start justify-center max-w-[1120px] text-accent-primary">
-					<div className="flex flex-col justify-center items-start gap-4 w-1/2">
-						<Logo size={80} />
-						<p className="text-xl w-2/3 leading-9">
+			<div className="py-8 md:min-h-screen flex center">
+				<div className="flex flex-col md:flex-row items-start justify-center max-w-[1120px] text-accent-primary px-4 gap-6 md:gap-0">
+					<div className="flex flex-col justify-center items-start gap-4 md:w-1/2">
+						<div className="hidden md:block">
+							<Logo size={80} />
+						</div>
+						<div className="md:hidden">
+							<Logo size={30} />
+						</div>
+						<p className="text-base md:text-xl md:w-2/3 leading-8 md:leading-9">
 							Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
 							nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
 							erat volutpat.
 						</p>
 
-						<p className="text-xl w-2/3 leading-9">
+						<p className="text-base md:text-xl md:w-2/3 leading-8 md:leading-9">
 							Ut wisi enim ad minim veniam, quis nostrud exerci tation
 							ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
 							consequat.
 						</p>
 					</div>
 
-					<div className="flex flex-col items-start justify-center gap-4 w-1/2">
+					<div className="flex flex-col items-start justify-center gap-1 md:gap-4 md:w-1/2">
 						<Image
 							src="/images/image_landing.jpg"
 							alt="Landscape"

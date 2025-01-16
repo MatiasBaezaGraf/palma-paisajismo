@@ -3,10 +3,10 @@ import { GardenShow } from "@/components/GardenShow";
 export default function Trabajo() {
 	return (
 		<div id="trabajo">
-			<div className="min-h-[80vh] flex center bg-black/[0.02]">
-				<div className="flex flex-row justify-start max-w-[1120px] w-full text-accent-secondary">
+			<div className="py-8 md:min-h-[80vh] flex center bg-black/[0.02]">
+				<div className="flex flex-row justify-start max-w-[1120px] w-full text-accent-secondary px-4">
 					<div className="flex flex-col justify-center items-start gap-8 flex-1">
-						<h2 className="text-5xl">Un poco de mi trabajo</h2>
+						<h2 className="text-2xl md:text-5xl">Un poco de mi trabajo</h2>
 
 						<div className="w-full grid grid-cols-2 gap-3 h-[70%]">
 							<GardenShow
