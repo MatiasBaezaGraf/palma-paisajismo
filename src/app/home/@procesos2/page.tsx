@@ -3,14 +3,14 @@ import Image from "next/image";
 export default function Procesos2() {
 	return (
 		<div>
-			<div className="md:min-h-screen py-8 md:py-36 flex flex-col center bg-planes bg-center bg-cover gap-3">
-				<p className="text-base leading-8 md:hidden text-accent-primary px-4">
+			<div className="py-12 xl:min-h-screen xl:py-36 flex flex-col center bg-planes bg-center bg-cover gap-3">
+				<p className="text-base leading-8 xl:hidden text-accent-primary px-4 max-w-[640px]">
 					Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper
 					suscipit lobortis nisl ut aliquip ex ea commodo consequat.
 				</p>
 
-				<div className="flex flex-row items-start justify-between max-w-[1120px] text-accent-primary px-4 gap-2 md:gap-0">
-					<div className="flex flex-col justify-center items-start gap-4 md:w-2/5">
+				<div className="flex flex-row items-start justify-between max-w-[640px] xl:max-w-[1120px] text-accent-primary px-4 gap-2 xl:gap-0">
+					<div className="flex flex-col justify-center items-start gap-4 xl:w-2/5">
 						<div>
 							<Image
 								src="/images/image_hands.jpg"
@@ -20,13 +20,13 @@ export default function Procesos2() {
 							/>
 						</div>
 
-						<p className="text-xl leading-9 hidden md:block">
+						<p className="text-xl leading-9 hidden xl:block">
 							Ut wisi enim ad minim veniam, quis nostrud exerci tation
 							ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
 							consequat.
 						</p>
 					</div>
-					<div className="flex flex-col justify-center items-start gap-4 md:w-2/5">
+					<div className="flex flex-col justify-center items-start gap-4 xl:w-2/5">
 						<div>
 							<Image
 								src="/images/image_writing.jpg"
@@ -36,7 +36,7 @@ export default function Procesos2() {
 							/>
 						</div>
 
-						<p className="text-xl leading-9 hidden md:block">
+						<p className="text-xl leading-9 hidden xl:block">
 							Ut wisi enim ad minim veniam, quis nostrud exerci tation
 							ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
 							consequat.
@@ -44,29 +44,29 @@ export default function Procesos2() {
 					</div>
 				</div>
 
-				<p className="text-base leading-8 md:hidden text-accent-primary px-4">
+				<p className="text-base leading-8 xl:hidden text-accent-primary px-4 max-w-[640px]">
 					Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper
 					suscipit lobortis nisl ut aliquip ex ea commodo consequat.
 				</p>
 
 				<div
 					id="contacto"
-					className="flex w-full justify-between max-w-[1120px] gap-10 pt-10 md:pt-40 px-4"
+					className="flex w-full justify-between max-w-[640px] xl:max-w-[1120px] gap-10 py-12 xl:pt-40 px-4"
 				>
 					{/* Contact form */}
-					<form className="flex flex-col justify-center items-start gap-4 w-full md:basis-3/5">
+					<form className="flex flex-col justify-center items-start gap-4 w-full xl:basis-3/5">
 						<h2 className="text-5xl text-accent-alternative">Hablemos</h2>
 
-						<div className="flex flex-col md:flex-row gap-4 w-full">
+						<div className="flex flex-col xl:flex-row gap-4 w-full">
 							<input
 								type="text"
 								placeholder="Nombre"
-								className="text-base border-2 border-accent-alternative bg-accent-alternative/10 text-accent-secondary px-4 py-2 md:basis-1/2"
+								className="text-base border-2 border-accent-alternative bg-accent-alternative/10 text-accent-secondary px-4 py-2 xl:basis-1/2"
 							/>
 							<input
 								type="email"
 								placeholder="Email"
-								className="text-base  border-2 border-accent-alternative bg-accent-alternative/10 text-accent-secondary px-4 py-2 md:basis-1/2"
+								className="text-base  border-2 border-accent-alternative bg-accent-alternative/10 text-accent-secondary px-4 py-2 xl:basis-1/2"
 							/>
 						</div>
 
@@ -80,7 +80,7 @@ export default function Procesos2() {
 							Enviar
 						</button>
 					</form>
-					<div className="hidden md:block flex-1 relative aspect-square basis-2/5">
+					<div className="hidden xl:block flex-1 relative aspect-square basis-2/5">
 						<Image
 							src={"/images/image_me.jpg"}
 							alt="Planes"
