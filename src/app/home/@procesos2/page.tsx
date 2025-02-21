@@ -9,7 +9,7 @@ export default function Procesos2() {
 					suscipit lobortis nisl ut aliquip ex ea commodo consequat.
 				</p>
 
-				<div className="flex flex-row items-start justify-between max-w-[640px] xl:max-w-[1120px] text-accent-primary px-4 gap-2 xl:gap-0">
+				<div className="flex flex-row items-start justify-between max-w-[640px] xl:max-w-[1220px] text-accent-primary px-4 gap-2 xl:gap-0">
 					<div className="flex flex-col justify-center items-start gap-4 xl:w-2/5">
 						<div>
 							<Image
@@ -51,7 +51,7 @@ export default function Procesos2() {
 
 				<div
 					id="contacto"
-					className="flex w-full justify-between max-w-[640px] xl:max-w-[1120px] gap-10 py-12 xl:pt-40 px-4"
+					className="flex w-full justify-between max-w-[640px] xl:max-w-[1220px] gap-10 py-12 xl:pt-40 px-4"
 				>
 					{/* Contact form */}
 					<form className="flex flex-col justify-center items-start gap-4 w-full xl:basis-3/5">

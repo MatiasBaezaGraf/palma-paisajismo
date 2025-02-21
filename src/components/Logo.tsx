@@ -10,7 +10,7 @@ export const Logo = ({ size = 16 }: { size?: number }) => {
 			className="relative"
 		>
 			<Image
-				src={"/images/logo.svg"}
+				src={"/images/logo_simple.svg"}
 				alt="Logo de la tienda"
 				layout="fill"
 				fill

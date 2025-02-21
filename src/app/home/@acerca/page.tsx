@@ -5,13 +5,13 @@ export default function Acerca() {
 	return (
 		<div id="sobremi">
 			<div className="py-12 xl:min-h-screen flex center">
-				<div className="flex flex-col xl:flex-row items-start justify-center max-w-[640px] xl:max-w-[1120px] text-accent-secondary px-4">
-					<div className="flex flex-col justify-center items-start gap-8 xl:gap-12 xl:w-1/2 text-base xl:text-xl">
+				<div className="flex flex-col xl:flex-row items-start justify-center max-w-[640px] xl:max-w-[1220px] text-accent-secondary px-4">
+					<div className="flex flex-col justify-center items-start gap-8 xl:gap-12 xl:w-1/2 text-base xl:text-lg">
 						<h2 className="text-2xl xl:text-5xl">Sobre Mí</h2>
 
 						<div className="flex flex-col items-start gap-1">
 							<span className="font-bold">Lorem ipsum dolor sit amet.</span>
-							<p className=" xl:w-2/3 leading-8 xl:leading-9 text-accent-alternative">
+							<p className=" xl:w-2/3 leading-8 xl:leading-[34px] text-accent-alternative">
 								Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
 								diam nonummy nibh euismod tincidunt ut laoreet dolore magna
 								aliquam erat
@@ -20,7 +20,7 @@ export default function Acerca() {
 
 						<div className="flex flex-col  items-start gap-1">
 							<span className="font-bold">Lorem ipsum dolor sit amet.</span>
-							<p className=" xl:w-2/3 leading-8 xl:leading-9 text-accent-alternative">
+							<p className=" xl:w-2/3 leading-8 xl:leading-[34px] text-accent-alternative">
 								Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
 								diam nonummy nibh euismod tincidunt ut laoreet dolore magna
 								aliquam erat

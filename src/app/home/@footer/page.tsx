@@ -5,7 +5,7 @@ export default function Footer() {
 	return (
 		<div>
 			<div className="py-12 xl:h-[20vh] flex center bg-black/[0.02]">
-				<div className="flex flex-col xl:flex-row gap-4 xl:gap-0 w-full items-start justify-center max-w-[640px] xl:max-w-[1120px] text-accent-primary text-sm px-4">
+				<div className="flex flex-col xl:flex-row gap-4 xl:gap-0 w-full items-start justify-center max-w-[640px] xl:max-w-[1220px] text-accent-primary text-sm px-4">
 					<div className="xl:w-1/4">
 						<Logo size={30} />
 					</div>

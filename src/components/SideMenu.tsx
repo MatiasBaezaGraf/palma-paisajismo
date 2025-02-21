@@ -1,6 +1,7 @@
 "use client";
 
 import {
+	FolderKanban,
 	House,
 	Menu,
 	MessageCircle,
@@ -31,6 +32,13 @@ export const SideMenu = () => {
 				>
 					<TreeDeciduous className="text-accent-alternative/40" size={24} />
 					<p className="text-base text-accent-alternative">Paisajismo</p>
+				</a>
+				<a
+					href="#trabajo"
+					className="flex flex-row justify-start gap-2 w-full px-8 py-4 hover:bg-accent-alternative/10"
+				>
+					<FolderKanban className="text-accent-alternative/40" size={24} />
+					<p className="text-base text-accent-alternative">Trabajos</p>
 				</a>
 				<a
 					href="#sobremi"
@@ -95,6 +103,14 @@ export const SideMenu = () => {
 						>
 							<TreeDeciduous className="text-accent-alternative/40" size={24} />
 							<p className="text-base text-accent-alternative">Paisajismo</p>
+						</a>
+						<a
+							href="#trabajo"
+							className="flex flex-row justify-start gap-2 w-full px-8 py-4 hover:bg-accent-alternative/10"
+							onClick={closeMenu}
+						>
+							<FolderKanban className="text-accent-alternative/40" size={24} />
+							<p className="text-base text-accent-alternative">Trabajos</p>
 						</a>
 						<a
 							href="#sobremi"

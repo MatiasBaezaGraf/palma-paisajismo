@@ -4,9 +4,9 @@ export default function Trabajo() {
 	return (
 		<div id="trabajo">
 			<div className="py-12 xl:min-h-[80vh] flex center bg-black/[0.02]">
-				<div className="flex flex-row justify-start max-w-[640px] xl:max-w-[1120px] w-full text-accent-secondary px-4">
+				<div className="flex flex-row justify-start max-w-[640px] xl:max-w-[1220px] w-full text-accent-secondary px-4">
 					<div className="flex flex-col justify-center items-start gap-8 flex-1">
-						<h2 className="text-2xl xl:text-5xl">Un poco de mi trabajo</h2>
+						<h2 className="text-2xl xl:text-5xl">Trabajos</h2>
 
 						<div className="w-full grid grid-cols-2 gap-3 xl:h-[70%]">
 							<GardenShow

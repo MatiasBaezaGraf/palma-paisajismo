@@ -1,6 +1,7 @@
 import { Lora } from "next/font/google";
 import type { Metadata } from "next";
 import "./globals.css";
+import { Logo } from "@/components/Logo";
 
 const lora = Lora({
 	display: "swap",
@@ -19,7 +20,10 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en">
-			<body className={`${lora.className} antialiased  bg-background`}>
+			<body className={`${lora.className} antialiased relative  bg-background`}>
+				<div className="px-4 opacity-70 z-20 left-1/2 transform -translate-x-1/2 fixed w-full max-w-[640px] xl:max-w-[1220px]  ">
+					<Logo size={36} />
+				</div>
 				{children}
 			</body>
 		</html>
